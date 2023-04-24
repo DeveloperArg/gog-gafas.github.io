@@ -1,0 +1,34 @@
+body {	
+		background-color:#fcfbfc;
+		}
+
+
+img#flex{width:48.8%;}
+
+
+div#logogog{text-align:center;
+			margin:0px auto;
+			}
+
+div#logogog a{text-decoration: none;
+			color:gray;
+			font-family: Verdana, sans-serif;
+
+}
+
+h2{
+	font-family: 'Open Sans Condensed', serif;
+}
+
+
+
+/*@media querries*/
+
+@media screen and (min-width:1024px)
+				{
+						img#flex{width:400px;
+								height: 204px;}
+
+								
+				}
+
