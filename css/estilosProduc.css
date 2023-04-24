@@ -1,0 +1,148 @@
+body {background-color:#fcfbfc;
+		}
+
+/*Menú*/
+
+div#menu ul {width: 100%;
+			margin:0 auto;
+			padding:0px;
+			list-style:none;
+			background-color: black;
+		}
+
+div#menu ul li {
+	display:inline-block;
+	}
+
+div#menu ul li.i a:hover, a:focus {	background-color: green;
+				color: white;}	
+
+li.p			{letter-spacing: 0.3em;}
+
+div#menu ul li.s a:hover, a:focus {	background-color: red;
+				color: white;}	
+				
+div#menu ul li.p a:hover, a:focus {	background-color: blue;
+				color: white;}	
+
+div#menu ul li.t a:hover, a:focus {	background-color: #FF6;
+				color: gray;}	
+
+div#menu ul li.c a:hover, a:focus {	background-color: white;
+				color: gray;}	
+
+
+div#menu ul li a{display:block;
+		text-decoration:none;
+		width:195px;
+		height: 41px;
+		padding-top:11px;
+		color:gray;
+		font-family: 'Verdana', sans-serif;
+		font-size: 16px;
+		font-weight: normal;}
+
+div#menu 	{width:100%;
+		position: absolute;
+		bottom:0px;
+		text-align: center;
+		overflow: hidden;
+					}
+
+/*Fin menú*/
+
+/*Wrapper*/
+
+div#wrapper{
+			min-width: 230px!important;
+			margin:0 auto;
+		    overflow: hidden;}
+
+
+
+div#header	{
+			width:100%;
+			height:70px;
+			overflow: hidden;
+			margin-bottom:10px;	
+			}	
+
+img.logos	{width: 50px;
+			float:right;
+			margin:10px;
+			}
+
+/*
+Version publicada tooltip*/
+
+.tooltiptext {
+    visibility: hidden;
+    width: auto;
+    height: 55px;
+    background-color: green;
+    color: white;/*gris 5% para validar Accesibilidad*/
+    text-align: center;
+    border-radius: 30px;
+    border: 5px solid white;
+    font-size: 20px;
+    padding: 8px 10px 5px 10px;
+    position: absolute;
+    z-index: 10;
+    top: 65px;
+    right: 10px;
+    box-shadow: 0 0 15px  #333333;
+	text-decoration: none;
+}
+
+div#tool:hover {
+	cursor: pointer;
+}
+
+div#tool:hover a span.tooltiptext {
+    visibility: visible;
+	
+   
+}
+
+/*Fin ToolTip*/
+
+/*Fin Header*/		
+
+/*Media Querries*/
+
+@media screen and (max-width:490px)
+				{
+					div#menu{position:relative;}				
+				}
+
+
+@media screen and (max-height:610px)
+				{
+					div#menu{position:relative;}
+				}
+
+@media screen and (max-width:480px)
+				{
+					div#header{box-shadow:0 0 10px #333333, 1px 1px 200px white inset;}
+				}						
+
+@media screen and (min-width:1100px){
+
+						body{background-color: #e6e6e6;}								
+
+						div#wrapper{		
+							width: 1030px;
+							height: 675px;
+							position: absolute;
+							top: 50%;
+							left: 50%;
+							margin-top: -337.5px;
+							margin-left: -515px;
+							box-shadow:0 0 10px #333333, 1px 1px 200px white inset;
+							background-color: #fcfbfc;
+							
+						}
+
+									
+				}
+				
